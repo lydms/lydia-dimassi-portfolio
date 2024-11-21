@@ -315,13 +315,14 @@
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input name="mail" type="text" placeholder="Adresse électronique"  required>
+                    <input name="mail" type="email" placeholder="Adresse électronique" required oninvalid="this.setCustomValidity('Veuillez entrer une adresse email valide')" oninput="this.setCustomValidity('')">
+
                     <span class="focus"></span>
                 </div>
             </div>
             <div class="input-box">
                 <div class="input-field">
-                    <input name="phonenumber" type="number" placeholder="N° de téléphone"  required>
+                    <input name="phonenumber" type="tel" placeholder="N° de téléphone"  required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">

@@ -672,6 +672,8 @@ video{
     background: transparent;
     border-radius: .6rem;
     border: .2rem solid var(--main-color);
+    position: relative; 
+    z-index: 5000; 
 }
 
 .contact form .input-box .input-field input::placeholder,
